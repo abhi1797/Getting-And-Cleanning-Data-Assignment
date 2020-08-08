@@ -1,4 +1,5 @@
-CodeBook for tidy data set
+*CodeBook for tidy data set
+
 This is the codebook for the dataset that describes the variables, the data, and any transformations or work that were performed to clean up the Smartphone data obtained from the UCI Machine Learning Repository as part of the final assignment in the course "Getting And Cleaning Data" from Coursera.
 
 subject             -       1..30
@@ -209,7 +210,9 @@ fbodybodygyrojerkmagmean -  Signed value between 0 and 1
 
 fbodybodygyrojerkmagstd   - Signed value between 0 and 1
     Described below.
+    
 *Codebook for the original dataset
+
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag).
